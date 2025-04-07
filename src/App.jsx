@@ -55,6 +55,7 @@ function App() {
             <th>Correo</th>
             <th>Número</th>
             <th>Grupo</th>
+            <th>Zona</th>
           </tr>
         </thead>
         <tbody>
@@ -64,6 +65,7 @@ function App() {
               <td>{cliente["Correo electrónico"]}</td>
               <td>{cliente["Numero "]}</td>
               <td>{cliente["Grupo de clientes"]}</td>
+              <td>{cliente["ZONA"]?.trim()}</td>
             </tr>
           ))}
         </tbody>
